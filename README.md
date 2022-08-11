@@ -3,6 +3,7 @@ This app is built with React typescript with [OpenWeatherMap API](https://openwe
 
 ![Screen Shot 2022-08-11 at 6 21 50 PM](https://user-images.githubusercontent.com/6504229/184252431-d8c77cc5-7fb3-441a-b65e-380dc44e33ca.png)
 
+Try out the app [HERE](https://donaldseo.github.io/Weather-app/)
 
 
 ---
