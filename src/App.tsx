@@ -29,13 +29,13 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto bg-sky-50 rounded-xl shadow border md:p-8 m-10">
+    <div className="container mx-auto bg-sky-100 rounded-xl md:p-8 m-10">
       <div className="flex flex-col md:flex-row justify-center content-center">
         {Cities.map((item) => (
           <CityHeader city={item} onClickHandler={handleCitySelection} />
         ))}
       </div>
-      <div className="flex flex-col rounded-xl">
+      <div className="flex flex-col rounded-xl shadow-xl">
         {status === "fetching" && <LoadingSpinner />}
         {status === "fetched" && <CurrentWeatherCard {...currentWeatherData} />}
         <div className="flex flex-row justify-center flex-wrap md:flex-nowrap">

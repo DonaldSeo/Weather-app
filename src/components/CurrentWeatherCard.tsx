@@ -4,7 +4,7 @@ type Props = currentWeatherDataType
 
 const CurrentWeatherCard = (props: Props) => {
   return (
-    <div className="flex flex-col w-full h-64 items-center justify-center mx-auto bg-sky-50 rounded-xl shadow border">
+    <div className="flex flex-col w-full h-64 items-center justify-center mx-auto bg-sky-100 rounded-t-lg shadow-xl border">
       <p className="text-lg">TODAY</p>
       <div className="flex flex-row items-center">
         <img
