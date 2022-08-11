@@ -23,7 +23,6 @@ export const useWeatherForecast = (coordinates: coordinatesDataType) => {
     setStatus("fetching");
     getWeatherForecast(coordinates)
       .then((res) => {
-        console.log(res)
         setCurrentWeatherData({
           temp: Math.round(res.data.current.temp),
           weatherIcon: res.data.current.weather[0].icon,

@@ -1,7 +1,6 @@
 import axios from "axios";
 
 async function getWeatherForecast(coordinates: { lat: number, lng: number }) {
-  console.log({coordinates})
   const response = await axios.get(
     "https://api.openweathermap.org/data/2.5/onecall",
     {
