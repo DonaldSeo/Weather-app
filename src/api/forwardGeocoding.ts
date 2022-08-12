@@ -5,10 +5,10 @@ async function getCoordinatesOfAddress(address: string) {
     "https://api.opencagedata.com/geocode/v1/json? ",
     {
       params: {
-        key:"93d5fc2ead3a4dcfa3608bb00e4057ad",
+        key: process.env.REACT_APP_GEOCODING_API_KEY,
         q: address,
-        language: "en"
-      }
+        language: "en",
+      },
     }
   );
 
